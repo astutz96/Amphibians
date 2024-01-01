@@ -1,18 +1,23 @@
+/*
+ * Copyright (C) 2023 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package com.example.amphibians.data
 
 import com.example.amphibians.model.Amphibian
 import com.example.amphibians.network.AmphibiansApiService
-
-/**
- * What is a repository?
- * In general a repository class:
- *
- * - Exposes data to the rest of the app.
- * - Centralizes changes to data.
- * - Resolves conflicts between multiple data sources.
- * - Abstracts sources of data from the rest of the app.
- * - Contains business logic.
- */
 
 /**
  * Repository retrieves amphibian data from underlying data source.
